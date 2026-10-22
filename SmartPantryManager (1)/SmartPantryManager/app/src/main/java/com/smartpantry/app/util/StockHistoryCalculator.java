@@ -55,6 +55,7 @@ public final class StockHistoryCalculator {
             }
             counts[i] = count;
         }
+       
         return counts;
     }
 }
