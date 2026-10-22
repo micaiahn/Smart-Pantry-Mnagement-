@@ -16,13 +16,13 @@ import java.util.List;
 public interface StockHistoryDao {
 
     @Insert
-    void insert(StockHistory entry);
+     void insert(StockHistory entry);
 
     /** Whole history, oldest first. Observed by the dashboard chart. */
     @Query("SELECT * FROM stock_history ORDER BY recordedAt ASC")
-    LiveData<List<StockHistory>> observeAll();
+     LiveData<List<StockHistory>> observeAll();
 
     /** History of one ingredient, oldest first (background thread). */
     @Query("SELECT * FROM stock_history WHERE itemId = :itemId ORDER BY recordedAt ASC")
-    List<StockHistory> getForItem(int itemId);
+     List<StockHistory> getForItem(int itemId);
 }
