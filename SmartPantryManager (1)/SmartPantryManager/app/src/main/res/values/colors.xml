@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warm minimalist palette (Smart Pantry Manager - Micaiah Nhamburo) -->
+    <color name="white">#FFFFFF</color>
+    <color name="pantry_background">#FFFFFF</color>
+    <color name="pantry_cream">#FBF6F0</color>
+    <color name="pantry_peach">#FCE9DD</color>
+    <color name="pantry_peach_track">#F6E1D4</color>
+    <color name="pantry_border">#F0E1D2</color>
+    <color name="pantry_brown">#B07D52</color>
+    <color name="pantry_brown_dark">#8A5E39</color>
+    <color name="pantry_text_primary">#1F1B16</color>
+    <color name="pantry_text_secondary">#6B6259</color>
+    <color name="pantry_red">#E5483A</color>
+    <color name="pantry_red_text">#D32F2F</color>
+    <color name="pantry_red_bg">#FDEDEA</color>
+    <color name="pantry_red_border">#F6D3CC</color>
+    <color name="pantry_orange">#C0652D</color>
+    <color name="pantry_green">#4CAF50</color>
+    <color name="pantry_green_dark">#2E7D32</color>
+    <color name="pantry_green_light">#E8F5E9</color>
+</resources>
