@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNav = findViewById(R.id.bottom_nav);
         bottomNav.setOnItemSelectedListener(item -> {
             showScreen(item.getItemId());
-            return true;
+             return true;
         });
 
         if (savedInstanceState == null) {
