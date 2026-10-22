@@ -2,7 +2,7 @@ package com.smartpantry.app.ui;
 
 /*
  * Smart Pantry Manager - Mobile App Development 700
- * Author: Micaiah Nhamburo
+ * Author: Micaiah T Nhamburo
  */
 
 import android.content.Intent;
