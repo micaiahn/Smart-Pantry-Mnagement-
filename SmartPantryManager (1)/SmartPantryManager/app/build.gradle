@@ -40,3 +40,8 @@ dependencies {
 
     testImplementation 'junit:junit:4.13.2'
 }
+    // Configure Java 17 compatibility for the application
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
