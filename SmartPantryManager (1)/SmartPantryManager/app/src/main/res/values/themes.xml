@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartPantry" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/pantry_brown</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/pantry_peach</item>
+        <item name="colorOnPrimaryContainer">@color/pantry_brown_dark</item>
+        <item name="colorSecondaryContainer">@color/pantry_peach</item>
+        <item name="colorOnSecondaryContainer">@color/pantry_brown_dark</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorSurfaceVariant">@color/pantry_cream</item>
+        <item name="colorOutline">#E3CDB9</item>
+        <item name="android:colorBackground">@color/pantry_background</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:textColorPrimary">@color/pantry_text_primary</item>
+        <item name="android:textColorSecondary">@color/pantry_text_secondary</item>
+    </style>
+
+    <!-- Screen headline: bold charcoal -->
+    <style name="TextAppearance.App.Headline" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pantry_text_primary</item>
+    </style>
+
+    <!-- Section heading, e.g. "Quick actions" -->
+    <style name="TextAppearance.App.Section" parent="">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pantry_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.App.Caption" parent="">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/pantry_text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.App.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pantry_text_primary</item>
+    </style>
+
+    <!-- Rounded card with a subtle beige border -->
+    <style name="Widget.App.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="strokeColor">@color/pantry_border</item>
+        <item name="strokeWidth">@dimen/card_stroke</item>
+    </style>
+
+    <style name="Widget.App.Card.Cream">
+        <item name="cardBackgroundColor">@color/pantry_cream</item>
+    </style>
+
+    <style name="Widget.App.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/white</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.ToolbarTitle</item>
+        <item name="navigationIconTint">@color/pantry_text_primary</item>
+    </style>
+
+    <!-- Bottom navigation: no pill indicator, brown active icon and label -->
+    <style name="Widget.App.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="itemActiveIndicatorStyle">@style/App.NavIndicator</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="App.NavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+</resources>
