@@ -46,7 +46,7 @@ public final class RecipeSeeder {
                 "egg|3|piece", "cheese|50|g", "butter|10|g", "salt|0.5|tsp");
 
         add(list, "Tomato Pasta",
-                "Boil the pasta in salted water until tender.\nFry the chopped onion and garlic in the olive oil.\n"
+                "Boil the pasta in salted water until it gets  tender enough .\nFry the chopped onion and garlic in the olive oil.\n"
                         + "Add the chopped tomatoes and simmer for 10 minutes.\nSeason, toss with the drained pasta and serve.",
                 "pasta|200|g", "tomato|3|piece", "onion|1|piece", "garlic|2|piece", "olive oil|2|tbsp", "salt|1|tsp");
 
